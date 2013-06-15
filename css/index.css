@@ -1,0 +1,117 @@
+@font-face {font-family: 'CaviarDreams';src: url('../font/CaviarDreams.ttf') format('truetype');}
+@font-face {font-family: 'CaviarDreams_b';src: url('../font/CaviarDreams_b.ttf') format('truetype');}
+@font-face {font-family: 'CaviarDreams_i';src: url('../font/CaviarDreams_i.ttf') format('truetype');}
+@font-face {font-family: 'CaviarDreams_bi';src: url('../font/CaviarDreams_bi.ttf') format('truetype');}
+@font-face {font-family: 'GeosansLight';src: url('../font/GeosansLight.ttf') format('truetype');}
+@font-face {font-family: 'GeosansLight_i';src: url('../font/GeosansLight_i.ttf') format('truetype');}
+@font-face {font-family: 'ChampagneLimousines';src: url('../font/ChampagneLimousines.ttf') format('truetype');}
+@font-face {font-family: 'ChampagneLimousines_b';src: url('../font/ChampagneLimousines_b.ttf') format('truetype');}
+@font-face {font-family: 'ChampagneLimousines_i';src: url('../font/ChampagneLimousines_i.ttf') format('truetype');}
+@font-face {font-family: 'ChampagneLimousines_bi';src: url('../font/ChampagneLimousines_bi.ttf') format('truetype');}
+body{
+	overflow:hidden;
+}
+li{
+	list-style: none;
+}
+#main{
+	background: URL('../img/background.jpg') 0 0;
+	font-family:ChampagneLimousines_b;
+	font-size:16px;
+	cursor: default;
+	width: 1000px;
+	height: 560px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -280px 0 0 -500px;
+}
+#menu{
+	width: 150px;
+	font-size: 24px;
+	font-family:CaviarDreams_b;
+}
+#menu li{
+	cursor: pointer;
+	margin: -10px 0 17px -25px;
+}
+#menu li:hover{
+	color: #AAAAAA;
+}
+#work{
+	width: 790px;
+	height: 515px;
+	margin: 0px 0 0 50px;
+	padding-top:25px;
+	padding-right:15px;
+	position:absolute;
+	top:10px;
+	right:10px;
+	overflow-y: hidden;
+}
+#work div{
+	margin-bottom: 50px;
+}
+#work div h1{
+	font-size: 23px;
+	margin:10px 0 0 10px;
+}
+#work div:nth-child(even) h1{
+	text-align:right;
+	margin-right:20px;
+}
+#work div span{
+	font-size: 16px;
+	color: #A0A0A0;
+}
+#work div img{
+	margin:15px 0 0 10px;
+}
+#work div:nth-child(even) img{
+	right:0%;
+	margin:15px 10px 0 0;
+}
+#work div div{
+	width: 230px;
+	margin: 15px 10px 0 10px;
+	float:right;
+}
+#work div:nth-child(even) div{
+	float:left;
+}
+#work div h3{
+	font-family:ChampagneLimousines_bi;
+	font-size: 19px;
+	margin-top:5px;
+	text-align: center;
+	cursor: pointer;
+}
+#image{
+	width: 750px;
+	height: 535px;
+	position:absolute;
+	top:10px;
+	right:50px;
+	overflow-y: hidden;
+	margin: 0 0 0 50px;
+}
+#image #slides{
+	display:none;
+	width: 675px;
+	margin: 0 5px 0 5px;
+}
+#contact{
+	width: 250px;
+	height: 300px;
+	position:absolute;
+	top:50%;
+	right:35%;
+	margin:-150px -125px 0 0;
+}
+#contact li{
+	margin-top:5px;
+}
+#contact img{
+	margin-right:7px;
+	cursor:pointer;
+}
